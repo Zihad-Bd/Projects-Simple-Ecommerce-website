@@ -1,0 +1,93 @@
+.cart-image {
+    height : 100px;
+    width : 100px;
+}
+
+.cart-image-area {
+    margin-left: 91%;
+}
+
+.cart-image-area:hover {
+    background-color: blue;
+}
+
+.products {
+    display : flex;
+    flex-wrap: wrap;
+     justify-content :space-evenly;
+    align-items: center;
+    align-content: space-between;
+}
+
+.product-image {
+    height : 290px;
+    width : 290px;
+    
+}
+
+.cart-list-heading {
+    font-size: 25px;
+}
+
+.cart-row {
+    display : flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
+.product-image-in-cart {
+    height : 180px;
+    width : 200px;
+}
+
+.cart-page-main-header {
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+
+.total-title {
+    font-size: 32px;
+    margin-left:69%;
+}
+
+.total-price {
+    margin-left: 25px;
+    font-size : 25px;
+}
+
+.tk {
+    font-size : 25px;
+}
+
+.add-to-cart-button {
+    font-size: 20px;
+}
+
+.product {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display : flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+}
+
+.product:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.store {
+    margin-left: 50%;
+    font-size: 42px;
+    font-family:fantasy
+}
+
+.remove {
+    font-size: 25px;
+    background-color: rgba(201, 37, 23, 0.715);
+}
+
+
